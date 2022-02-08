@@ -5,7 +5,7 @@ This project was made with the [Customer Personality Analysis](https://www.kaggl
 ## 💡 Problem Statement
 Customer Personality Analysis is a detailed analysis of a company’s ideal customers. It helps a business to better understand its customers and makes it easier for them to modify products according to the specific needs, behaviors and concerns of different types of customers.
 
-With this project, the store will have groups os similar customers, witch will help create better marketing and sales strategies to increase revenue.
+With this project, the store will have groups os similar customers, which will help create better marketing and sales strategies to increase revenue.
 
 ## 📚 Data Dictionary
 Need to perform clustering to summarize customer segments.
