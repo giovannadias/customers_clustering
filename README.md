@@ -43,16 +43,26 @@ I started by making a baseline model so that I could have some metrics to evalua
 The metrics that where chosen for this project where:
 - **WSS (Within-Cluster Sum of Square):** a small sum of squares indicates a more compact cluster - meaning that the observations are closer within a cluster.
 - **SS (Silhouette Score):** evaluates the similiarity of the observations in a cluster (if its closer to 1, means that the points belongs to the clusters they have been assigin, otherwise, if its closer to -1, means that the points should belong to other cluster).
+![image](https://user-images.githubusercontent.com/82069205/152966261-3ccd10af-b8b4-42f4-a1c5-f8b69c6ecc4a.png)![image](https://user-images.githubusercontent.com/82069205/152966334-d817ae50-5053-4aee-9a53-61afe4165a9c.png)
 
 ## ⚙ Cicle 2: Descriptive Statistics and Feature Engineering.
+In this cicle was made all the data description in order to better understand the missing values, data types and get some insights from the statistical description of the data. After that, I started the feature engineering to get new attributes from the originals ones given by the dataset and ran the metrics again, to see if it was impacted by the changes made. As long as the cicles advanced, new features were created and in each cicle the metrics were ran to see the differences. 
+![image](https://user-images.githubusercontent.com/82069205/152966174-0aa09ab9-cc09-42d1-945c-4571c4886102.png)
 
 ## 📊 Cicle 3: RFM Model
+For this cicle I implemented the RFM Model (Recency, Frequency and Monetary) to segment the customers into this 3 categories and see the metrics. The features were created based on the attributes I already had available in the dataset. 
+![image](https://user-images.githubusercontent.com/82069205/152966015-6210f0e6-503c-42f5-8a81-f87fe71622f4.png)
 
 ## 📍 Cicle 4: Exploratory Data Analysis
+Using the python library ProfileReport, I got some insights about the data and create some hypothesis to be validated. Puting an effort on finding out more information about the data, this phase of the project was crucial to get some insights and start to think about what would be the best features to be used for the model training.
+![image](https://user-images.githubusercontent.com/82069205/152967040-dabe4ff7-b87f-48e5-9133-adb58b5a94e9.png)
 
 ## 🎲 Cicle 5: Data Preparation
+In this phase I made all the data transformation needed to ajust the data for the model traning, using enconding for the categorical features, rescaling for the numerical ones and applied some transformation on the time nature features. 
+![image](https://user-images.githubusercontent.com/82069205/152967441-43e72994-8ac4-488e-a4ca-d9dc909fa64b.png)
 
 ## 🤖 Cicle 6: Space Study
+In order to get a better visualization of the data distribution and the clusters that might be formed
 
 ## 🔦 Cicle 7: Machine Learning Models
 
