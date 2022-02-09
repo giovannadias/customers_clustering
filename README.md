@@ -85,3 +85,10 @@ After getting the cluster for each customer on the database, I made a new explor
 
 ## 📲 Cicle 10: Deploy
 The deploy was made by loading the final database with the giving cluster on AWS usingin RDS and creating a PostgreSQL database. This database was linked to the visualization tool Metabase, hosted on the Heroku cloud service. A final analysis of the clusters with marketing suggestions was made on Google Presentations and is available on this repository. You can access the Metabase dashboard [here](https://customers-clustering.herokuapp.com/dashboard/1-customers-clustering).
+<iframe
+    src="http://customers-clustering.herokuapp.com/public/dashboard/c2444796-4b07-4b7b-8c20-f8703cb63278"
+    frameborder="0"
+    width="800"
+    height="600"
+    allowtransparency
+></iframe>
